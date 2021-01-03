@@ -114,9 +114,6 @@ border-right: 1px solid #cbcbcb;\
 background: none;\
 cursor: default;\
 }\
-.ace_searchbtn:hover {\
-background-color: #eef1f6;\
-}\
 .ace_searchbtn.prev, .ace_searchbtn.next {\
 padding: 0px 0.7em\
 }\
