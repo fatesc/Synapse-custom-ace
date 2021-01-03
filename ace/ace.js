@@ -17466,7 +17466,7 @@ letter-spacing: normal;\
 pointer-events: none;\
 background-color: rgba(60, 60, 60, 255);\
 border-radius: 4px;\
-font-family: 'Brush Script MT', cursive;\
+font-family : courier,arial,helvetica;\
 }\
 .ace_folding-enabled > .ace_gutter-cell {\
 padding-right: 13px;\

@@ -19,7 +19,7 @@ z-index: 99;\
 white-space: normal;\
 background-color: rgba(60, 60, 60, 255);\
 border-radius: 4px;\
-font-family: 'Brush Script MT', cursive;\
+font-family : courier,arial,helvetica;\
 color: rgb(255, 255, 255);\
 border: 1px solid rgb(48, 47, 46);\
 }\
@@ -29,7 +29,7 @@ border-radius: 0px 0px 5px 0px;\
 left: 0;\
 background-color: rgba(60, 60, 60, 255);\
 border-radius: 4px;\
-font-family: 'Brush Script MT', cursive;\
+font-family : courier,arial,helvetica;\
 color: rgb(255, 255, 255);\
 }\
 .ace_search.right {\
@@ -38,7 +38,7 @@ border-right: 0 none;\
 right: 0;\
 background-color: rgba(60, 60, 60, 255);\
 border-radius: 4px;\
-font-family: 'Brush Script MT', cursive;\
+font-family : courier,arial,helvetica;\
 color: rgb(255, 255, 255);\
 }\
 .ace_search_form, .ace_replace_form {\
@@ -47,14 +47,14 @@ overflow: hidden;\
 line-height: 1.9;\
 background-color: rgba(60, 60, 60, 255);\
 border-radius: 4px;\
-font-family: 'Brush Script MT', cursive;\
+font-family : courier,arial,helvetica;\
 color: rgb(255, 255, 255);\
 }\
 .ace_replace_form {\
 margin-right: 0;\
 background-color: rgba(60, 60, 60, 255);\
 border-radius: 4px;\
-font-family: 'Brush Script MT', cursive;\
+font-family : courier,arial,helvetica;\
 color: rgb(255, 255, 255);\
 border: 1px solid rgb(48, 47, 46);\
 }\
@@ -62,7 +62,7 @@ border: 1px solid rgb(48, 47, 46);\
 outline: 1px solid red;\
 background-color: rgba(60, 60, 60, 255);\
 border-radius: 4px;\
-font-family: 'Brush Script MT', cursive;\
+font-family : courier,arial,helvetica;\
 color: rgb(255, 255, 255);\
 border: 1px solid rgb(48, 47, 46);\
 }\
@@ -84,7 +84,7 @@ min-height: 1.8em;\
 box-sizing: content-box;\
 background-color: rgba(60, 60, 60, 255);\
 border-radius: 4px;\
-font-family: 'Brush Script MT', cursive;\
+font-family : courier,arial,helvetica;\
 color: rgb(255, 255, 255);\
 border: 1px solid rgb(48, 47, 46);\
 }\
@@ -102,7 +102,7 @@ position: relative;\
 color: #666;\
 background-color: rgba(60, 60, 60, 255);\
 border-radius: 4px;\
-font-family: 'Brush Script MT', cursive;\
+font-family : courier,arial,helvetica;\
 color: rgb(255, 255, 255);\
 border: 1px solid rgb(48, 47, 46);\
 }\
@@ -135,7 +135,7 @@ border-radius: 50%;\
 border: 0 none;\
 color: #656565;\
 cursor: pointer;\
-font: 16px/16px Arial;\
+font-family : courier,arial,helvetica;\
 padding: 0;\
 height: 14px;\
 width: 14px;\
@@ -164,7 +164,7 @@ box-sizing:    border-box!important;\
 color: black;\
 background-color: rgba(60, 60, 60, 255);\
 border-radius: 4px;\
-font-family: 'Brush Script MT', cursive;\
+font-family : courier,arial,helvetica;\
 color: rgb(255, 255, 255);\
 border: 1px solid rgb(48, 47, 46);\
 }\
@@ -187,7 +187,7 @@ clear: both;\
 }\
 .ace_search_counter {\
 float: left;\
-font-family: arial;\
+font-family:courier,arial,helvetica;\
 padding: 0 8px;\
 }";
 var HashHandler = require("../keyboard/hash_handler").HashHandler;
