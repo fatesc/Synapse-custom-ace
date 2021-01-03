@@ -27,7 +27,7 @@
       z-index: 1000;
       position: absolute;
       overflow: hidden;
-      border: 1px solid rgb(48, 47, 46);
+      border: 1px solid gray;
       white-space: nowrap;
       font-family: sans-serif;
       background: #FFF;
@@ -37,6 +37,7 @@
       background-color: rgba(60, 60, 60, 255);
       border-radius: 2px;
       font-family: 'Brush Script MT', cursive;
+      background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.1));
     }
 
     /* Each of the items in the list */
@@ -5230,7 +5231,7 @@ luaminp.Uglify = function(src1, options) {
   </script>
   <ul class='custom-menu' id='Menu'>
     <li data-action="1" id="Comment" onclick="CommentFunc()">Comment selection</li>
-    <li data-action="2" onclick="BeautifyFunc()">Beautify selection</li>
+    <li data-action="2" onclick="BeautifyFunc()">Beautify selection ctrl+b</li>
     <li data-action="3" onclick="ClearText()">Clear</li>
   </ul>
 

@@ -17,27 +17,54 @@ position: absolute;\
 top: 0;\
 z-index: 99;\
 white-space: normal;\
+background-color: rgba(60, 60, 60, 255);\
+border-radius: 4px;\
+font-family: 'Brush Script MT', cursive;\
+color: rgb(255, 255, 255);\
+border: 1px solid rgb(48, 47, 46);\
 }\
 .ace_search.left {\
 border-left: 0 none;\
 border-radius: 0px 0px 5px 0px;\
 left: 0;\
+background-color: rgba(60, 60, 60, 255);\
+border-radius: 4px;\
+font-family: 'Brush Script MT', cursive;\
+color: rgb(255, 255, 255);\
 }\
 .ace_search.right {\
 border-radius: 0px 0px 0px 5px;\
 border-right: 0 none;\
 right: 0;\
+background-color: rgba(60, 60, 60, 255);\
+border-radius: 4px;\
+font-family: 'Brush Script MT', cursive;\
+color: rgb(255, 255, 255);\
 }\
 .ace_search_form, .ace_replace_form {\
 margin: 0 20px 4px 0;\
 overflow: hidden;\
 line-height: 1.9;\
+background-color: rgba(60, 60, 60, 255);\
+border-radius: 4px;\
+font-family: 'Brush Script MT', cursive;\
+color: rgb(255, 255, 255);\
 }\
 .ace_replace_form {\
 margin-right: 0;\
+background-color: rgba(60, 60, 60, 255);\
+border-radius: 4px;\
+font-family: 'Brush Script MT', cursive;\
+color: rgb(255, 255, 255);\
+border: 1px solid rgb(48, 47, 46);\
 }\
 .ace_search_form.ace_nomatch {\
 outline: 1px solid red;\
+background-color: rgba(60, 60, 60, 255);\
+border-radius: 4px;\
+font-family: 'Brush Script MT', cursive;\
+color: rgb(255, 255, 255);\
+border: 1px solid rgb(48, 47, 46);\
 }\
 .ace_search_field {\
 border-radius: 3px 0 0 3px;\
@@ -55,6 +82,11 @@ min-width: 17em;\
 vertical-align: top;\
 min-height: 1.8em;\
 box-sizing: content-box;\
+background-color: rgba(60, 60, 60, 255);\
+border-radius: 4px;\
+font-family: 'Brush Script MT', cursive;\
+color: rgb(255, 255, 255);\
+border: 1px solid rgb(48, 47, 46);\
 }\
 .ace_searchbtn {\
 border: 1px solid #cbcbcb;\
@@ -68,6 +100,11 @@ cursor: pointer;\
 margin: 0;\
 position: relative;\
 color: #666;\
+background-color: rgba(60, 60, 60, 255);\
+border-radius: 4px;\
+font-family: 'Brush Script MT', cursive;\
+color: rgb(255, 255, 255);\
+border: 1px solid rgb(48, 47, 46);\
 }\
 .ace_searchbtn:last-child {\
 border-radius: 0 3px 3px 0;\
@@ -110,7 +147,7 @@ right: 7px;\
 position: absolute;\
 }\
 .ace_searchbtn_close:hover {\
-background-color: #656565;\
+background-color: rgba(60, 60, 60, 255)\
 background-position: 50% 100%;\
 color: white;\
 }\
@@ -128,10 +165,11 @@ border: 1px solid rgba(100,100,100,0.23);\
 padding: 1px;\
 box-sizing:    border-box!important;\
 color: black;\
-}\
-.ace_button:hover {\
-background-color: #eee;\
-opacity:1;\
+background-color: rgba(60, 60, 60, 255);\
+border-radius: 4px;\
+font-family: 'Brush Script MT', cursive;\
+color: rgb(255, 255, 255);\
+border: 1px solid rgb(48, 47, 46);\
 }\
 .ace_button:active {\
 background-color: #ddd;\

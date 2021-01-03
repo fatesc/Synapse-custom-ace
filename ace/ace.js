@@ -17434,6 +17434,9 @@ border: 1px solid black;\
 border-radius: 2px;\
 cursor: pointer;\
 pointer-events: auto;\
+background-color: rgba(60, 60, 60, 255);\
+border-radius: 4px;\
+font-family: 'Brush Script MT', cursive;\
 }\
 .ace_dark .ace_fold {\
 }\
@@ -17446,7 +17449,6 @@ url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAA3CAYAAADNNiA5AAAAGXRF
 background-color: #FFF;\
 background-image: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.1));\
 border: 1px solid gray;\
-border-radius: 1px;\
 box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);\
 color: white;\
 max-width: 100%;\
@@ -17496,12 +17498,15 @@ border: 1px solid rgba(0, 0, 0, 0.3);\
 background-color: rgba(255, 255, 255, 0.2);\
 box-shadow: 0 1px 1px rgba(255, 255, 255, 0.7);\
 background-color: rgba(60, 60, 60, 255);\
-    border-radius: 4px;\
+border-radius: 4px;\
+font-family: 'Brush Script MT', cursive;\
 }\
 .ace_fold-widget:active {\
 border: 1px solid rgba(0, 0, 0, 0.4);\
 background-color: rgba(0, 0, 0, 0.05);\
-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.8);\
+background-color: rgba(60, 60, 60, 255);\
+border-radius: 4px;\
+font-family: 'Brush Script MT', cursive;\
 }\
 .ace_dark .ace_fold-widget {\
 background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAHklEQVQIW2P4//8/AzoGEQ7oGCaLLAhWiSwB146BAQCSTPYocqT0AAAAAElFTkSuQmCC\");\
@@ -17514,10 +17519,14 @@ background-image: url(\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAAFCA
 }\
 .ace_dark .ace_fold-widget:hover {\
 box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);\
-background-color: rgba(255, 255, 255, 0.1);\
+background-color: rgba(60, 60, 60, 255);\
+border-radius: 4px;\
+font-family: 'Brush Script MT', cursive;\
 }\
 .ace_dark .ace_fold-widget:active {\
-box-shadow: 0 1px 1px rgba(255, 255, 255, 0.2);\
+    background-color: rgba(60, 60, 60, 255);\
+    border-radius: 4px;\
+    font-family: 'Brush Script MT', cursive;\
 }\
 .ace_inline_button {\
 border: 1px solid lightgray;\
@@ -17579,12 +17588,18 @@ background: white;\
 box-shadow: 1px 3px 2px grey;\
 border: 1px solid #dcdcdc;\
 color: black;\
+background-color: rgba(60, 60, 60, 255);\
+border-radius: 4px;\
+font-family: 'Brush Script MT', cursive;\
 }\
 .ace_dark > .ace_mobile-menu {\
 background: #333;\
 color: #ccc;\
 box-shadow: 1px 3px 2px grey;\
 border: 1px solid #444;\
+background-color: rgba(60, 60, 60, 255);\
+border-radius: 4px;\
+font-family: 'Brush Script MT', cursive;\
 }\
 .ace_mobile-button {\
 padding: 2px;\
